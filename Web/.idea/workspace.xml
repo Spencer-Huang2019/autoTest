@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f025eee1-96f0-4d9a-8404-a64c0b70660c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../API/project/config/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/project/logFile/loginApi_log2020-04-03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/project/logFile/registryApi_log2020-04-03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/project/toolUtils/yamlUtils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/logFile/mockAPI_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API/logFile/mockAPI_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/api/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/api/baseApi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/api/register.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/case/testLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/case/testLogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/case/testReg.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/case/testReg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/data/api_TC.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/data/api_TC.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/data/api_TC_result - 副本.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/data/api_TC_result.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/logFile/loginApi_log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/logFile/registryApi_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/logFile/mockAPI_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API/mockAPI/logFile/mockAPI_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/logFile/registryApi_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/mockAPI/apiServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API/mockAPI/apiServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/project/logFile/loginApi_log2020-04-03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/logFile/loginApi_log2020-04-03.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/project/logFile/registryApi_log2020-04-03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/logFile/registryApi_log2020-04-03.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API/project/reports/2020-04-03.html" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/reports/2020-04-03.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/toolUtils/apiUitls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/toolUtils/dbUtils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/test1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/work process.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documents/work process.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/logFiles/testLogin_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project/logFiles/testLogin_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/reports/2020-04-03.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/reports/2020-04-03.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
