@@ -84,3 +84,32 @@
 2020-04-03 18:02:51,459 INFO Logout DouBan
 2020-04-03 18:03:01,628 ERROR Can't find the element!
 2020-04-03 18:03:01,628 ERROR Case5: Logout successfully FAIL!!!
+2020-04-03 21:06:20,422 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 21:06:20,775 INFO Enter username: 15122888806
+2020-04-03 21:06:20,869 INFO Enter password: huanhuan350881
+2020-04-03 21:06:20,956 INFO User successfully login!
+2020-04-03 21:06:22,385 INFO Case1: login success PASS!
+2020-04-03 21:06:34,975 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 21:06:35,118 INFO Enter phone: 1512288880
+2020-04-03 21:06:35,270 INFO Click send SMS
+2020-04-03 21:06:35,313 ERROR Case2: Incorrect phone No. FAIL!!!
+2020-04-03 21:06:48,942 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 21:06:49,111 INFO Enter phone: 15122888806
+2020-04-03 21:06:49,192 INFO Enter smsCode: 123456
+2020-04-03 21:06:49,319 INFO Click to login
+2020-04-03 21:06:49,413 ERROR Case3: Incorrect sms code FAIL!!!
+2020-04-03 21:07:02,453 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 21:07:02,755 INFO Enter username: 15122888806
+2020-04-03 21:07:02,850 INFO Enter password: 123456
+2020-04-03 21:07:02,953 INFO Click to login
+2020-04-03 21:07:03,040 ERROR Case4: Incorrect password FAIL!!!
+2020-04-03 21:07:15,999 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 21:07:16,287 INFO Enter username: 15122888806
+2020-04-03 21:07:16,402 INFO Enter password: huanhuan350881
+2020-04-03 21:07:16,495 INFO User successfully login!
+2020-04-03 21:07:26,561 ERROR Can't find the element!
+2020-04-03 21:07:26,562 ERROR Case5: Logout successfully FAIL!!!
+2020-04-03 21:07:26,625 INFO Show item of myAccount
+2020-04-03 21:07:28,362 INFO Logout DouBan
+2020-04-03 21:07:38,502 ERROR Can't find the element!
+2020-04-03 21:07:38,503 ERROR Case5: Logout successfully FAIL!!!
