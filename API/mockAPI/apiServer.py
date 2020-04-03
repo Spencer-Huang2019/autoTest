@@ -3,7 +3,7 @@ import json
 from mockAPI.dbUtils import database
 from mockAPI.logUtils import log
 
-logger = log("../logFile/mockAPI_log.txt")
+logger = log("./logFile/mockAPI_log.txt")
 
 server = Flask(__name__)  # regard current file as a service
 
