@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f025eee1-96f0-4d9a-8404-a64c0b70660c" name="Default Changelist" comment="commit">
+      <change beforePath="$PROJECT_DIR$/../API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../API/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/work process.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documents/work process.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../API" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -195,10 +197,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="290" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585904155585" />
-    <state x="675" y="150" key="FileChooserDialogImpl" timestamp="1585904644750">
+    <state x="675" y="150" key="FileChooserDialogImpl" timestamp="1585904976331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="675" y="150" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585904644750" />
+    <state x="675" y="150" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585904976331" />
     <state width="1515" height="104" key="GridCell.Tab.0.bottom" timestamp="1585899691839">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -235,18 +237,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="631" y="115" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1585904360132" />
+    <state x="883" y="115" key="RollbackChangesDialog" timestamp="1585905413117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="883" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585905413117" />
     <state x="398" y="52" key="SettingsEditor" timestamp="1585902921936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="398" y="52" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585902921936" />
-    <state x="690" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585904158721">
+    <state x="690" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585905325507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="690" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1585904158721" />
-    <state x="689" y="200" width="570" height="395" key="git4idea.merge.GitMergeDialog" timestamp="1585904342123">
+    <state x="690" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1585905325507" />
+    <state x="689" y="200" width="570" height="395" key="git4idea.merge.GitMergeDialog" timestamp="1585905477452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="689" y="200" width="570" height="395" key="git4idea.merge.GitMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1585904342123" />
+    <state x="689" y="200" width="570" height="395" key="git4idea.merge.GitMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1585905477452" />
+    <state x="871" y="308" key="git4idea.ui.GitResetDialog" timestamp="1585905442529">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="871" y="308" key="git4idea.ui.GitResetDialog/0.0.1536.824@0.0.1536.824" timestamp="1585905442529" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585827577289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
