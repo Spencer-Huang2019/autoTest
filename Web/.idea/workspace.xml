@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f025eee1-96f0-4d9a-8404-a64c0b70660c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../API/logFile/mockAPI_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API/mockAPI/logFile/mockAPI_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/logFile/registryApi_log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/mockAPI/apiServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API/mockAPI/apiServer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/logFile/loginApi_log2020-04-03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/logFile/loginApi_log2020-04-03.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/logFile/registryApi_log2020-04-03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/logFile/registryApi_log2020-04-03.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/reports/2020-04-03.html" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/reports/2020-04-03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../working process.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/documents/Work process.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/work process.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
