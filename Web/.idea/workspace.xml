@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f025eee1-96f0-4d9a-8404-a64c0b70660c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../API/project/reports/2020-04-03.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/logFile/mockAPI_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API/logFile/mockAPI_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/data/api_TC_result.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/data/api_TC_result.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/logFile/loginApi_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/logFile/loginApi_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/project/logFile/registryApi_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/logFile/registryApi_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/work process.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documents/work process.docx" afterDir="false" />
-    </list>
+    <list default="true" id="f025eee1-96f0-4d9a-8404-a64c0b70660c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
