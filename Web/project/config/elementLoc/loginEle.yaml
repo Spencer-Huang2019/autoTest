@@ -1,0 +1,34 @@
+uri:
+  type: str
+  value: "/"
+iframeLoc:
+  type: xpath
+  value: //div[@class='login']/iframe
+pwWayOfLoc:
+  type: class_name
+  value: account-tab-account
+usernameLoc:
+  type: id
+  value: username
+passwordLoc:
+  type: id
+  value: password
+submitLoc:
+  type: link_text
+  value: 登录豆瓣
+myAccLoc:
+  type: class_name
+  value: bn-more
+logoutLoc:
+  type: link_text
+  value: 退出
+phoneLoc:
+  type: name
+  value: phone
+sendSMSLoc:
+  type: link_text
+  value: 获取验证码
+smsCodeLoc:
+  type: id
+  value: code
+
