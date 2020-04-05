@@ -12,6 +12,6 @@ class Yaml(object):
         return data
 
 if __name__ == '__main__':
-    filepath = "../config/loginConfig.yaml"
+    filepath = "../config/elementLoc/loginEle.yaml"
     r = Yaml(filepath)
     print(r.readYaml())

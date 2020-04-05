@@ -2,43 +2,62 @@ import unittest
 from project.toolUtils.yamlUtils import Yaml
 from project.page.loginPage import LoginPage
 from project.toolUtils.getData import GetData
-from project.toolUtils.logUtils import log
 from parameterized import parameterized
 import warnings
 from selenium import webdriver
 from time import sleep
+from project.toolUtils.logUtils import log
+import time
 
-logfile = "./logFiles/testLogin_log.txt"
+logfile = Yaml("./config/configFile.yaml").readYaml()["logFiles"]["loginLog"].format(time.strftime("%Y-%m-%d"))
 logger = log(logfile)
 
-filepath = "./data/loginTC.json"
-getObj = GetData(filepath)
+configFile = Yaml("./config/configFile.yaml").readYaml()
+tcPath = configFile["caseFiles"]["loginTC"]
+getObj = GetData(tcPath)
 
-configDict = Yaml(getObj.configFile()).readYaml()
+baseUrl = configFile["baseUrl"]
+elementDict = Yaml("./config/elementLoc/loginEle.yaml").readYaml()
 
 class TestLogin(unittest.TestCase):
 
-    global configDict
+    global baseUrl
+    global elementDict
+
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.driver.implicitly_wait(15)
-        self.baseUrl = configDict["baseUrl"]["value"]
+        self.driver.implicitly_wait(30)
+        self.baseUrl = baseUrl
         warnings.simplefilter("ignore", ResourceWarning)
 
-    @parameterized.expand(getObj.testData())
+    @parameterized.expand(getObj.data())
     def testLogin(self,id, desc, dataDict, expected):
         driver = self.driver
-        case = LoginPage(driver, self.baseUrl, configDict, id, desc, dataDict, expected)
+        case = LoginPage(driver, self.baseUrl, elementDict, id, desc, dataDict)
+        logger.msg("case: %s START!" %desc, "info")
         if id == "1":
             case.pwLoginSucess()
+            assert (case.findElement(expected["type"], expected["value"]) != None)
         elif id == "2":
             case.loginPhInc()
+            # assert if error pops
+            assert (case.findElement(expected["type"], expected["value"]) != None)
+            assert (case.getText(expected["type"], expected["value"]) == expected["text"])
         elif id == "3":
             case.loginSmsInc()
+            # assert if error pops
+            assert (case.findElement(expected["type"], expected["value"]) != None)
+            assert (case.getText(expected["type"], expected["value"]) == expected["text"])
         elif id == "4":
             case.loginPwInc()
+            # assert if error pops
+            assert (case.findElement(expected["type"], expected["value"]) != None)
+            assert (case.getText(expected["type"], expected["value"]) == expected["text"])
         else:
             case.logout()
+            # assert if logout success
+            assert (case.findElement(expected["type"], expected["value"]) != None)
+        logger.msg("case: %s FINISHED!" % desc, "info")
         sleep(3)
 
     def tearDown(self):
@@ -57,17 +76,6 @@ if __name__ == '__main__':
     #     "submitLoc":(By.LINK_TEXT, "登录豆瓣")
     # }
     # inData = {"username": "15122888806","password": "huanhuan350881"}
-    # filepath = "../config/loginConfig.yaml"
+    # filepath = "../config/loginEle.yaml"
 
     unittest.main()
-
-    driver = webdriver.Chrome()
-    driver.get("http://www.douban.com/")
-    driver.implicitly_wait(10)
-    ele = driver.find_element_by_class_name("ss")
-
-    # frame = driver.find_element_by_css_selector(".login>iframe")
-    # driver.switch_to.frame(frame)
-    # print(frame)
-    # ele = driver.find_element_by_class_name("account-tab-account on")
-    # print(ele)

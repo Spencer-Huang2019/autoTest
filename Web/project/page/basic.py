@@ -1,8 +1,12 @@
 from selenium.webdriver.common.by import By
-from project.toolUtils.logUtils import log
 from selenium.webdriver.common.action_chains import ActionChains
 
-logfile = "./logFiles/testLogin_log.txt"
+
+from project.toolUtils.logUtils import log
+from project.toolUtils.yamlUtils import Yaml
+import time
+
+logfile = Yaml("./config/configFile.yaml").readYaml()["logFiles"]["loginLog"].format(time.strftime("%Y-%m-%d"))
 logger = log(logfile)
 
 class Page(object):
@@ -43,12 +47,14 @@ class Page(object):
                 ele = self.driver.find_element(By.TAG_NAME, eleLoc)
         except Exception:
             ele = None
-            logger.msg("Can't find the element!", "error")
+            logger.msg("Element: %s NOT Found!!!" % eleLoc, "error")
+        else:
+            logger.msg("Element: %s Found!" % eleLoc, "info")
         finally:
             return ele
 
     def getText(self, type, eleLoc):
-        return self.findElement(type, eleLoc).text()
+        return self.findElement(type, eleLoc).text
 
     def click(self, type, eleLoc):
         self.findElement(type, eleLoc).click()

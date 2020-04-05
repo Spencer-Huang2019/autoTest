@@ -1,0 +1,5 @@
+baseUrl: http://www.douban.com
+logFiles:
+  loginLog: ./logFiles/login_log_{}.txt
+caseFiles:
+  loginTC: ./data/loginTC.json

@@ -1,10 +1,5 @@
 [
-  {
-    "configPath": "./config/loginConfig.yaml",
-    "resultFile": "./reports/",
-    "resultSheet": "login_result"
-  },
-  {
+    {
     "id": "1",
     "desc": "login success",
     "data": {
@@ -14,8 +9,7 @@
     "expected": {
       "type": "id",
       "value": "top-nav-doumail-link"
-    },
-    "preId": null
+    }
   },
   {
     "id": "2",
@@ -27,8 +21,7 @@
       "type": "class_name",
       "value": "fatal-msg",
       "text": "请正确填写手机号"
-    },
-    "preId": null
+    }
   },
   {
     "id": "3",
@@ -41,8 +34,7 @@
       "type": "class_name",
       "value": "fatal-msg",
       "text": "验证码输入错误或已过期"
-    },
-    "preId": null
+    }
   },
   {
     "id": "4",
@@ -55,8 +47,7 @@
       "type": "class_name",
       "value": "fatal-msg",
       "text": "用户名或密码错误"
-    },
-    "preId": null
+    }
   },
   {
     "id": "5",
@@ -68,7 +59,6 @@
     "expected": {
       "type": "link_text",
       "value": "登录豆瓣"
-    },
-    "preId": null
+    }
   }
 ]
