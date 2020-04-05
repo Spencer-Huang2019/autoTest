@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f025eee1-96f0-4d9a-8404-a64c0b70660c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/config/configFile.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/reports/2020-04-05.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/case/testBaidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/case/testBaidu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/case/testLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/case/testLogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/config/loginConfig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/elementLoc/loginEle.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/data/loginTC.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/data/loginTC.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/page/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/page/basic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/page/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/page/loginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/toolUtils/getData.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/toolUtils/getData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/toolUtils/yamlUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/toolUtils/yamlUtils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../working process.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../working process.doc" afterDir="false" />
-    </list>
+    <list default="true" id="f025eee1-96f0-4d9a-8404-a64c0b70660c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
