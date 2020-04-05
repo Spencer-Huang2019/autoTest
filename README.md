@@ -3,6 +3,7 @@ API and Web auto test based on Python(keep updating)
 
 These projects are my first efforts. 
 Sincerely hope you can give me some advice if you are interested.
+email：Spencer.huanhuan@outlook.com
 
 API：
 1. Using flask module to mock two api: register and login.
