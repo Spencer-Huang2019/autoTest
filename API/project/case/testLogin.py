@@ -7,8 +7,8 @@ import time
 
 class testLogin(unittest.TestCase):
 
-    tcFilepath = Yaml("./config/config.yaml").readYaml()["caseFile"]["path"].format(time.strftime("%Y-%m-%d"))
-    sheetName = Yaml("./config/config.yaml").readYaml()["caseFile"]["loginSheet"].format(time.strftime("%Y-%m-%d"))
+    tcFilepath = Yaml("../config/config.yaml").readYaml()["caseFile"]["path"].format(time.strftime("%Y-%m-%d"))
+    sheetName = Yaml("../config/config.yaml").readYaml()["caseFile"]["loginSheet"].format(time.strftime("%Y-%m-%d"))
     getObj = getData(tcFilepath, sheetName)
 
     @parameterized.expand(getObj.data())

@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f025eee1-96f0-4d9a-8404-a64c0b70660c" name="Default Changelist" comment="" />
+    <list default="true" id="f025eee1-96f0-4d9a-8404-a64c0b70660c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../API - Allure/.idea/API.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/mockAPI/apiServer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/mockAPI/dbUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/mockAPI/logFile/mockAPI_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/mockAPI/logUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/mockAPI/startServer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/api/baseApi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/case/testLogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/case/testReg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/config/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/data/api_TC.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/logFile/loginApi_log2020-04-03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/logFile/registryApi_log2020-04-03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/reports/2020-04-02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/reports/2020-04-03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/runSuites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/toolUtils/HTMLTestRunner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/toolUtils/excelUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/toolUtils/getData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/toolUtils/logUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API - Allure/project/toolUtils/yamlUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/project/case/testLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/case/testLogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/project/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../API/project/config/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,38 +224,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="675" y="150" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586072680908" />
-    <state width="1515" height="259" key="GridCell.Tab.0.bottom" timestamp="1586081597612">
+    <state width="1515" height="227" key="GridCell.Tab.0.bottom" timestamp="1586083710364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586081597612" />
-    <state width="1515" height="259" key="GridCell.Tab.0.center" timestamp="1586081597612">
+    <state width="1515" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586083710364" />
+    <state width="1515" height="227" key="GridCell.Tab.0.center" timestamp="1586083710363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586081597612" />
-    <state width="1515" height="259" key="GridCell.Tab.0.left" timestamp="1586081597612">
+    <state width="1515" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586083710363" />
+    <state width="1515" height="227" key="GridCell.Tab.0.left" timestamp="1586083710363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586081597612" />
-    <state width="1515" height="259" key="GridCell.Tab.0.right" timestamp="1586081597612">
+    <state width="1515" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586083710363" />
+    <state width="1515" height="227" key="GridCell.Tab.0.right" timestamp="1586083710364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586081597612" />
-    <state width="1515" height="227" key="GridCell.Tab.1.bottom" timestamp="1586079758782">
+    <state width="1515" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586083710364" />
+    <state width="1515" height="227" key="GridCell.Tab.1.bottom" timestamp="1586083710364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="227" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586079758782" />
-    <state width="1515" height="227" key="GridCell.Tab.1.center" timestamp="1586079758782">
+    <state width="1515" height="227" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586083710364" />
+    <state width="1515" height="227" key="GridCell.Tab.1.center" timestamp="1586083710364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="227" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586079758782" />
-    <state width="1515" height="227" key="GridCell.Tab.1.left" timestamp="1586079758782">
+    <state width="1515" height="227" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586083710364" />
+    <state width="1515" height="227" key="GridCell.Tab.1.left" timestamp="1586083710364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="227" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586079758782" />
-    <state width="1515" height="227" key="GridCell.Tab.1.right" timestamp="1586079758782">
+    <state width="1515" height="227" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586083710364" />
+    <state width="1515" height="227" key="GridCell.Tab.1.right" timestamp="1586083710364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="227" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586079758782" />
+    <state width="1515" height="227" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586083710364" />
     <state x="294" y="53" key="MergeDialog" timestamp="1585907949210">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

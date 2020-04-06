@@ -1,7 +1,7 @@
 logFile:
-  login: ./logFile/loginApi_log{}.txt
-  register: ./logFile/registryApi_log{}.txt
+  login: ../logFile/loginApi_log{}.txt
+  register: ../logFile/registryApi_log{}.txt
 caseFile:
-  path: ./data/api_TC.xls
+  path: ../data/api_TC.xls
   loginSheet: login
   registerSheet: register
