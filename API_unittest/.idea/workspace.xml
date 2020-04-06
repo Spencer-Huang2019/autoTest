@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3227400-01a8-433c-a13d-61aa3a7b838b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/case/testBaidu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/case/testLogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/config/loginConfig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/data/loginTC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/module/loginMod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/page/baiduSearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/page/basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/page/loginPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/runSuite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/toolUtils/HTMLTestRunner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/toolUtils/excelUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/toolUtils/getData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/toolUtils/jsonUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/toolUtils/logUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/project/toolUtils/yamlUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZvJ6VY52cY4eHq8y3GZL9jJ82J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web" />
+>>>>>>> dev
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Spencer\Code\Python\AutoTest\API\project\case" />
+      <recent name="D:\Spencer\Code\Python\AutoTest\API\project\toolUtils" />
+      <recent name="D:\Spencer\Code\Python\AutoTest\API\project\data" />
+      <recent name="D:\Spencer\Code\Python\AutoTest\API\project\api" />
+      <recent name="D:\Spencer\Code\Python\AutoTest\API\mockAPI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Spencer\Code\Python\AutoTest\API\project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.runSuites">
+    <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mockAPI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Spencer\Code\Python\AutoTest\API\mockAPI\api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="apiUitls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/toolUtils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/toolUtils/apiUitls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="register" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/api/register.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runSuites" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/runSuites.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testReg.testRegister.test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testReg.testRegister.test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in testReg.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/project/case/testReg.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.runSuites" />
+        <item itemvalue="Python.register" />
+        <item itemvalue="Python.apiUitls" />
+        <item itemvalue="Python tests.Unittests for testReg.testRegister.test" />
+        <item itemvalue="Python tests.Unittests in testReg.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3227400-01a8-433c-a13d-61aa3a7b838b" name="Default Changelist" comment="" />
+      <created>1585713458147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585713458147</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="513" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585727656468">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585727656468" />
+    <state x="619" y="184" key="FileChooserDialogImpl" timestamp="1585900782913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="619" y="184" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585900782913" />
+    <state width="1077" height="135" key="GridCell.Tab.0.bottom" timestamp="1585794356088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1077" height="135" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585794356088" />
+    <state width="1077" height="135" key="GridCell.Tab.0.center" timestamp="1585794356088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1077" height="135" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585794356088" />
+    <state width="1077" height="135" key="GridCell.Tab.0.left" timestamp="1585794356088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1077" height="135" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585794356088" />
+    <state width="1077" height="135" key="GridCell.Tab.0.right" timestamp="1585794356088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1077" height="135" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585794356088" />
+    <state width="1515" height="252" key="GridCell.Tab.1.bottom" timestamp="1585791279970">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585791279970" />
+    <state width="1515" height="252" key="GridCell.Tab.1.center" timestamp="1585791279970">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585791279970" />
+    <state width="1515" height="252" key="GridCell.Tab.1.left" timestamp="1585791279970">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585791279970" />
+    <state width="1515" height="252" key="GridCell.Tab.1.right" timestamp="1585791279970">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585791279970" />
+    <state x="360" y="134" width="672" height="678" key="search.everywhere.popup" timestamp="1585721523173">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="134" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585721523173" />
+  </component>
+</project>

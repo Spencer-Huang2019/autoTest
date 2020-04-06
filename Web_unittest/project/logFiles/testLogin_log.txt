@@ -1,0 +1,115 @@
+2020-04-03 13:51:45,912 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 13:51:46,238 INFO Enter username: 15122888806
+2020-04-03 13:51:46,384 INFO Enter password: huanhuan350881
+2020-04-03 13:51:46,488 INFO User successfully login!
+2020-04-03 13:52:00,490 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 13:52:00,790 INFO Enter username: 15122888806
+2020-04-03 13:52:00,926 INFO Enter password: huanhuan350881
+2020-04-03 13:52:01,020 INFO User successfully login!
+2020-04-03 15:17:22,697 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 15:17:22,989 INFO Enter username: 15122888806
+2020-04-03 15:17:23,110 INFO Enter password: huanhuan350881
+2020-04-03 15:17:23,203 INFO User successfully login!
+2020-04-03 15:17:36,918 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 15:17:37,146 INFO Enter phone: 1512288880
+2020-04-03 15:17:37,274 INFO Click send SMS
+2020-04-03 15:17:46,844 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 15:17:47,039 INFO Enter phone: 15122888806
+2020-04-03 15:17:47,130 INFO Enter smsCode: 123456
+2020-04-03 15:17:47,252 INFO Click to login
+2020-04-03 15:17:56,501 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 15:17:56,807 INFO Enter username: 15122888806
+2020-04-03 15:17:56,894 INFO Enter password: 123456
+2020-04-03 15:17:56,997 INFO Click to login
+2020-04-03 15:18:06,361 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 15:18:06,673 INFO Enter username: 15122888806
+2020-04-03 15:18:06,805 INFO Enter password: huanhuan350881
+2020-04-03 15:18:06,900 INFO User successfully login!
+2020-04-03 15:18:16,967 ERROR Can't find the element!
+2020-04-03 15:38:45,128 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 15:38:45,393 INFO Enter username: 15122888806
+2020-04-03 15:38:45,494 INFO Enter password: huanhuan350881
+2020-04-03 15:38:45,571 INFO User successfully login!
+2020-04-03 15:38:47,271 INFO Case1: login success PASS!
+2020-04-03 15:39:00,345 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 15:39:00,518 INFO Enter phone: 1512288880
+2020-04-03 15:39:00,691 INFO Click send SMS
+2020-04-03 15:39:00,733 ERROR Case2: Incorrect phone No. FAIL!!!
+2020-04-03 15:39:12,908 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 15:39:13,097 INFO Enter phone: 15122888806
+2020-04-03 15:39:13,212 INFO Enter smsCode: 123456
+2020-04-03 15:39:13,342 INFO Click to login
+2020-04-03 15:39:13,433 ERROR Case3: Incorrect sms code FAIL!!!
+2020-04-03 15:39:25,608 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 15:39:25,915 INFO Enter username: 15122888806
+2020-04-03 15:39:26,018 INFO Enter password: 123456
+2020-04-03 15:39:26,119 INFO Click to login
+2020-04-03 15:39:26,218 ERROR Case4: Incorrect password FAIL!!!
+2020-04-03 15:39:38,309 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 15:39:38,612 INFO Enter username: 15122888806
+2020-04-03 15:39:38,744 INFO Enter password: huanhuan350881
+2020-04-03 15:39:38,837 INFO User successfully login!
+2020-04-03 15:40:12,101 ERROR Can't find the element!
+2020-04-03 15:40:12,102 ERROR Case5: Logout successfully FAIL!!!
+2020-04-03 15:40:12,164 INFO Show item of myAccount
+2020-04-03 15:40:13,927 INFO Logout DouBan
+2020-04-03 15:40:23,971 ERROR Can't find the element!
+2020-04-03 15:40:23,971 ERROR Case5: Logout successfully FAIL!!!
+2020-04-03 18:01:46,180 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 18:01:46,672 INFO Enter username: 15122888806
+2020-04-03 18:01:46,854 INFO Enter password: huanhuan350881
+2020-04-03 18:01:46,986 INFO User successfully login!
+2020-04-03 18:01:48,186 INFO Case1: login success PASS!
+2020-04-03 18:02:00,584 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 18:02:00,740 INFO Enter phone: 1512288880
+2020-04-03 18:02:00,911 INFO Click send SMS
+2020-04-03 18:02:00,954 ERROR Case2: Incorrect phone No. FAIL!!!
+2020-04-03 18:02:13,679 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 18:02:13,833 INFO Enter phone: 15122888806
+2020-04-03 18:02:13,906 INFO Enter smsCode: 123456
+2020-04-03 18:02:14,049 INFO Click to login
+2020-04-03 18:02:14,133 ERROR Case3: Incorrect sms code FAIL!!!
+2020-04-03 18:02:26,344 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 18:02:26,631 INFO Enter username: 15122888806
+2020-04-03 18:02:26,709 INFO Enter password: 123456
+2020-04-03 18:02:26,821 INFO Click to login
+2020-04-03 18:02:27,024 ERROR Case4: Incorrect password FAIL!!!
+2020-04-03 18:02:38,977 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 18:02:39,286 INFO Enter username: 15122888806
+2020-04-03 18:02:39,426 INFO Enter password: huanhuan350881
+2020-04-03 18:02:39,524 INFO User successfully login!
+2020-04-03 18:02:49,548 ERROR Can't find the element!
+2020-04-03 18:02:49,549 ERROR Case5: Logout successfully FAIL!!!
+2020-04-03 18:02:49,614 INFO Show item of myAccount
+2020-04-03 18:02:51,459 INFO Logout DouBan
+2020-04-03 18:03:01,628 ERROR Can't find the element!
+2020-04-03 18:03:01,628 ERROR Case5: Logout successfully FAIL!!!
+2020-04-03 21:06:20,422 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 21:06:20,775 INFO Enter username: 15122888806
+2020-04-03 21:06:20,869 INFO Enter password: huanhuan350881
+2020-04-03 21:06:20,956 INFO User successfully login!
+2020-04-03 21:06:22,385 INFO Case1: login success PASS!
+2020-04-03 21:06:34,975 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 21:06:35,118 INFO Enter phone: 1512288880
+2020-04-03 21:06:35,270 INFO Click send SMS
+2020-04-03 21:06:35,313 ERROR Case2: Incorrect phone No. FAIL!!!
+2020-04-03 21:06:48,942 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 21:06:49,111 INFO Enter phone: 15122888806
+2020-04-03 21:06:49,192 INFO Enter smsCode: 123456
+2020-04-03 21:06:49,319 INFO Click to login
+2020-04-03 21:06:49,413 ERROR Case3: Incorrect sms code FAIL!!!
+2020-04-03 21:07:02,453 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 21:07:02,755 INFO Enter username: 15122888806
+2020-04-03 21:07:02,850 INFO Enter password: 123456
+2020-04-03 21:07:02,953 INFO Click to login
+2020-04-03 21:07:03,040 ERROR Case4: Incorrect password FAIL!!!
+2020-04-03 21:07:15,999 INFO Open the url: {'type': 'str', 'value': 'http://www.douban.com'}{'type': 'str', 'value': '/'}
+2020-04-03 21:07:16,287 INFO Enter username: 15122888806
+2020-04-03 21:07:16,402 INFO Enter password: huanhuan350881
+2020-04-03 21:07:16,495 INFO User successfully login!
+2020-04-03 21:07:26,561 ERROR Can't find the element!
+2020-04-03 21:07:26,562 ERROR Case5: Logout successfully FAIL!!!
+2020-04-03 21:07:26,625 INFO Show item of myAccount
+2020-04-03 21:07:28,362 INFO Logout DouBan
+2020-04-03 21:07:38,502 ERROR Can't find the element!
+2020-04-03 21:07:38,503 ERROR Case5: Logout successfully FAIL!!!

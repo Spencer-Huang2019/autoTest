@@ -1,0 +1,81 @@
+{
+  "uid" : "83982fc48555d6c0",
+  "name" : "test_loginSuc[15122888806-huanhuan350881-{\"type\":\"link_text\", \"value\":\"说句话\", \"text\": \"说句话\"}]",
+  "fullName" : "tests.steps.login.test_loginSuc#test_loginSuc",
+  "historyId" : "19ba83e06435d306be4a235a14c85e3d",
+  "time" : {
+    "start" : 1586181749782,
+    "stop" : 1586181758274,
+    "duration" : 8492
+  },
+  "description" : "../../features/doubanlogin.feature: pwLoginSuccess",
+  "descriptionHtml" : "<p>../../features/doubanlogin.feature: pwLoginSuccess</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "../../features/doubanlogin.feature: pwLoginSuccess",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb0ea1f7ea277036",
+      "name" : "log",
+      "source" : "fb0ea1f7ea277036.txt",
+      "type" : "text/plain",
+      "size" : 7742
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.steps.login"
+  }, {
+    "name" : "suite",
+    "value" : "test_loginSuc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KAVVNMT"
+  }, {
+    "name" : "thread",
+    "value" : "24624-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.steps.login.test_loginSuc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'{\"type\":\"link_text\", \"value\":\"说句话\", \"text\": \"说句话\"}'"
+  }, {
+    "name" : "password",
+    "value" : "'huanhuan350881'"
+  }, {
+    "name" : "username",
+    "value" : "'15122888806'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83982fc48555d6c0.json",
+  "parameterValues" : [ "'{\"type\":\"link_text\", \"value\":\"说句话\", \"text\": \"说句话\"}'", "'huanhuan350881'", "'15122888806'" ]
+}

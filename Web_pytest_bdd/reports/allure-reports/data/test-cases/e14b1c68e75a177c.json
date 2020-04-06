@@ -1,0 +1,64 @@
+{
+  "uid" : "e14b1c68e75a177c",
+  "name" : "test_loginPwInc[15122888806-huanhuan35881-{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"用户名或密码错误\"}]",
+  "fullName" : "tests.steps.login.test_loginPwInc#test_loginPwInc",
+  "historyId" : "854acfbf646936d3bbf9ce8a5c83a171",
+  "time" : {
+    "start" : 1586181730218,
+    "stop" : 1586181737297,
+    "duration" : 7079
+  },
+  "description" : "../../features/doubanlogin.feature: loginPwInc",
+  "descriptionHtml" : "<p>../../features/doubanlogin.feature: loginPwInc</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.steps.login"
+  }, {
+    "name" : "suite",
+    "value" : "test_loginPwInc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KAVVNMT"
+  }, {
+    "name" : "thread",
+    "value" : "24624-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.steps.login.test_loginPwInc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"用户名或密码错误\"}'"
+  }, {
+    "name" : "password",
+    "value" : "'huanhuan35881'"
+  }, {
+    "name" : "username",
+    "value" : "'15122888806'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e14b1c68e75a177c.json",
+  "parameterValues" : [ "'{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"用户名或密码错误\"}'", "'huanhuan35881'", "'15122888806'" ]
+}

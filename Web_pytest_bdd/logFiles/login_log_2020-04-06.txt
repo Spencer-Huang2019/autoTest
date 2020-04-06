@@ -1,0 +1,52 @@
+2020-04-06 19:35:02,187 INFO Redirect to Url: http://www.douban.com/
+2020-04-06 19:35:02,343 INFO Using password to login
+2020-04-06 19:35:02,594 INFO input username: 15122888806 and password
+2020-04-06 19:35:02,764 INFO Click login btn
+2020-04-06 19:36:26,327 INFO Redirect to Url: http://www.douban.com/
+2020-04-06 19:36:26,451 INFO Using password to login
+2020-04-06 19:36:26,705 INFO input username: 15122888806 and password
+2020-04-06 19:36:26,789 INFO Click login btn
+2020-04-06 19:37:13,455 INFO Redirect to Url: http://www.douban.com/
+2020-04-06 19:37:13,628 INFO Using password to login
+2020-04-06 19:37:13,880 INFO input username: 15122888806 and password
+2020-04-06 19:37:14,055 INFO Click login btn
+2020-04-06 19:37:14,057 INFO expected: {"type":"id", "value":"top-nav-doumail-link", "text": "豆邮"}
+2020-04-06 19:39:36,392 INFO Redirect to Url: http://www.douban.com/
+2020-04-06 19:39:36,515 INFO Using password to login
+2020-04-06 19:39:36,752 INFO input username: 15122888806 and password
+2020-04-06 19:39:36,841 INFO Click login btn
+2020-04-06 19:39:36,842 INFO expected: {"type":"id", "value":"top-nav-doumail-link", "text": "豆邮"}, type:<class 'str'>
+2020-04-06 19:39:38,103 INFO login success
+2020-04-06 21:19:51,997 INFO Redirect to Url: http://www.douban.com/
+2020-04-06 21:22:36,728 INFO Redirect to Url: http://www.douban.com/
+2020-04-06 21:22:36,840 INFO Using password to login
+2020-04-06 21:22:37,118 INFO input username: 15122888806 and password
+2020-04-06 21:22:37,213 INFO Click login btn
+2020-04-06 21:22:37,213 INFO expected: {"type":"id", "value":"top-nav-doumail-link", "text": "豆邮"}, type:<class 'str'>
+2020-04-06 21:26:38,439 INFO Redirect to Url: http://www.douban.com/
+2020-04-06 21:26:38,562 INFO Using password to login
+2020-04-06 21:26:38,817 INFO input username: 15122888806 and password
+2020-04-06 21:26:38,902 INFO Click login btn
+2020-04-06 21:26:38,903 INFO expected: {"type":"link_text", "value":"说句话", "text": "说句话"}, type:<class 'str'>
+2020-04-06 21:26:40,450 INFO login success
+2020-04-06 21:46:45,805 INFO Redirect to Url: http://www.douban.com/
+2020-04-06 21:46:45,953 INFO Using password to login
+2020-04-06 21:46:46,234 INFO input username: 15122888806 and password
+2020-04-06 21:46:46,331 INFO Click login btn
+2020-04-06 21:46:46,332 INFO expected: {"type":"link_text", "value":"说句话", "text": "说句话"}, type:<class 'str'>
+2020-04-06 21:46:47,295 INFO login success
+2020-04-06 21:57:14,865 INFO Switch to iframe
+2020-04-06 21:57:14,866 INFO phoneLoc: {'type': 'name', 'value': 'phone'}
+2020-04-06 21:57:15,094 INFO Click send SMS code
+2020-04-06 22:02:36,297 INFO Redirect to Url: http://www.douban.com/
+2020-04-06 22:02:36,454 INFO Using password to login
+2020-04-06 22:02:36,719 INFO input username: 15122888806 and password
+2020-04-06 22:02:36,827 INFO Click login btn
+2020-04-06 22:02:36,828 INFO expected: {"type":"link_text", "value":"说句话", "text": "说句话"}, type:<class 'str'>
+2020-04-06 22:02:38,273 INFO login success
+2020-04-06 22:06:48,001 INFO Redirect to Url: http://www.douban.com/
+2020-04-06 22:06:48,151 INFO Using password to login
+2020-04-06 22:06:48,441 INFO input username: 15122888806 and password
+2020-04-06 22:06:48,611 INFO Click login btn
+2020-04-06 22:06:48,612 INFO expected: {"type":"link_text", "value":"说句话", "text": "说句话"}, type:<class 'str'>
+2020-04-06 22:06:50,183 INFO login success

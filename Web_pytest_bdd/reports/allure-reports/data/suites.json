@@ -1,0 +1,94 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests.steps.login",
+    "children" : [ {
+      "name" : "test_loginPhInc",
+      "children" : [ {
+        "name" : "test_loginPhInc[151228886-{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"请正确填写手机号\"}]",
+        "uid" : "e5a354adf7b7278d",
+        "parentUid" : "c95a0832dddc8c7ce1f3600453bfbff3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586181721185,
+          "stop" : 1586181728082,
+          "duration" : 6897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"请正确填写手机号\"}'", "'151228886'" ]
+      } ],
+      "uid" : "c95a0832dddc8c7ce1f3600453bfbff3"
+    }, {
+      "name" : "test_loginPwInc",
+      "children" : [ {
+        "name" : "test_loginPwInc[15122888806-huanhuan35881-{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"用户名或密码错误\"}]",
+        "uid" : "e14b1c68e75a177c",
+        "parentUid" : "0d9d7dd72181f2295ca99307e76c17ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586181730218,
+          "stop" : 1586181737297,
+          "duration" : 7079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"用户名或密码错误\"}'", "'huanhuan35881'", "'15122888806'" ]
+      } ],
+      "uid" : "0d9d7dd72181f2295ca99307e76c17ab"
+    }, {
+      "name" : "test_loginSmsInc",
+      "children" : [ {
+        "name" : "test_loginSmsInc[15122888806-123456-{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"验证码输入错误或已过期\"}]",
+        "uid" : "2731d4a0da23e315",
+        "parentUid" : "40a223b6381af1c88ccf7ccae9b2ca55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586181739454,
+          "stop" : 1586181746829,
+          "duration" : 7375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"验证码输入错误或已过期\"}'", "'15122888806'", "'123456'" ]
+      } ],
+      "uid" : "40a223b6381af1c88ccf7ccae9b2ca55"
+    }, {
+      "name" : "test_loginSuc",
+      "children" : [ {
+        "name" : "test_loginSuc[15122888806-huanhuan350881-{\"type\":\"link_text\", \"value\":\"说句话\", \"text\": \"说句话\"}]",
+        "uid" : "83982fc48555d6c0",
+        "parentUid" : "a473a8fd1492a49fee362c6389f0e9e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586181749782,
+          "stop" : 1586181758274,
+          "duration" : 8492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"type\":\"link_text\", \"value\":\"说句话\", \"text\": \"说句话\"}'", "'huanhuan350881'", "'15122888806'" ]
+      } ],
+      "uid" : "a473a8fd1492a49fee362c6389f0e9e8"
+    }, {
+      "name" : "test_logout",
+      "children" : [ {
+        "name" : "test_logout[15122888806-huanhuan350881-{\"type\":\"link_text\", \"value\":\"登录豆瓣\", \"text\": \"登录豆瓣\"}]",
+        "uid" : "c49f58466a546cf4",
+        "parentUid" : "d022be04ddac43e56e8bcfd58a44e663",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586181760426,
+          "stop" : 1586181770868,
+          "duration" : 10442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"type\":\"link_text\", \"value\":\"登录豆瓣\", \"text\": \"登录豆瓣\"}'", "'huanhuan350881'", "'15122888806'" ]
+      } ],
+      "uid" : "d022be04ddac43e56e8bcfd58a44e663"
+    } ],
+    "uid" : "e6927b2db26413c454907f9fe727017f"
+  } ]
+}

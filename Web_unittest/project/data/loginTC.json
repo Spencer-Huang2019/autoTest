@@ -1,0 +1,64 @@
+[
+    {
+    "id": "1",
+    "desc": "login success",
+    "data": {
+      "username": "15122888806",
+      "password": "huanhuan350881"
+    },
+    "expected": {
+      "type": "id",
+      "value": "top-nav-doumail-link"
+    }
+  },
+  {
+    "id": "2",
+    "desc": "Incorrect phone No.",
+    "data": {
+      "phone": "1512288880"
+    },
+    "expected": {
+      "type": "class_name",
+      "value": "fatal-msg",
+      "text": "请正确填写手机号"
+    }
+  },
+  {
+    "id": "3",
+    "desc": "Incorrect sms code",
+    "data": {
+      "phone": "15122888806",
+      "smsCode": "123456"
+    },
+    "expected": {
+      "type": "class_name",
+      "value": "fatal-msg",
+      "text": "验证码输入错误或已过期"
+    }
+  },
+  {
+    "id": "4",
+    "desc": "Incorrect password",
+    "data": {
+      "username": "15122888806",
+      "password": "123456"
+    },
+    "expected": {
+      "type": "class_name",
+      "value": "fatal-msg",
+      "text": "用户名或密码错误"
+    }
+  },
+  {
+    "id": "5",
+    "desc": "Logout successfully",
+    "data": {
+      "username": "15122888806",
+      "password": "huanhuan350881"
+    },
+    "expected": {
+      "type": "link_text",
+      "value": "登录豆瓣"
+    }
+  }
+]

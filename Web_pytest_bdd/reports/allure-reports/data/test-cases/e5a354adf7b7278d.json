@@ -1,0 +1,61 @@
+{
+  "uid" : "e5a354adf7b7278d",
+  "name" : "test_loginPhInc[151228886-{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"请正确填写手机号\"}]",
+  "fullName" : "tests.steps.login.test_loginPhInc#test_loginPhInc",
+  "historyId" : "0d2d7a44e6ee7eaa6aaef195352d5876",
+  "time" : {
+    "start" : 1586181721185,
+    "stop" : 1586181728082,
+    "duration" : 6897
+  },
+  "description" : "../../features/doubanlogin.feature: loginPhInc",
+  "descriptionHtml" : "<p>../../features/doubanlogin.feature: loginPhInc</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.steps.login"
+  }, {
+    "name" : "suite",
+    "value" : "test_loginPhInc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KAVVNMT"
+  }, {
+    "name" : "thread",
+    "value" : "24624-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.steps.login.test_loginPhInc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"请正确填写手机号\"}'"
+  }, {
+    "name" : "phone",
+    "value" : "'151228886'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5a354adf7b7278d.json",
+  "parameterValues" : [ "'{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"请正确填写手机号\"}'", "'151228886'" ]
+}

@@ -1,0 +1,70 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_loginPhInc[151228886-{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"请正确填写手机号\"}]",
+    "uid" : "e5a354adf7b7278d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586181721185,
+      "stop" : 1586181728082,
+      "duration" : 6897
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"请正确填写手机号\"}'", "'151228886'" ]
+  }, {
+    "name" : "test_loginPwInc[15122888806-huanhuan35881-{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"用户名或密码错误\"}]",
+    "uid" : "e14b1c68e75a177c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586181730218,
+      "stop" : 1586181737297,
+      "duration" : 7079
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"用户名或密码错误\"}'", "'huanhuan35881'", "'15122888806'" ]
+  }, {
+    "name" : "test_loginSmsInc[15122888806-123456-{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"验证码输入错误或已过期\"}]",
+    "uid" : "2731d4a0da23e315",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586181739454,
+      "stop" : 1586181746829,
+      "duration" : 7375
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'{\"type\":\"class_name\", \"value\":\"fatal-msg\", \"text\": \"验证码输入错误或已过期\"}'", "'15122888806'", "'123456'" ]
+  }, {
+    "name" : "test_loginSuc[15122888806-huanhuan350881-{\"type\":\"link_text\", \"value\":\"说句话\", \"text\": \"说句话\"}]",
+    "uid" : "83982fc48555d6c0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586181749782,
+      "stop" : 1586181758274,
+      "duration" : 8492
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'{\"type\":\"link_text\", \"value\":\"说句话\", \"text\": \"说句话\"}'", "'huanhuan350881'", "'15122888806'" ]
+  }, {
+    "name" : "test_logout[15122888806-huanhuan350881-{\"type\":\"link_text\", \"value\":\"登录豆瓣\", \"text\": \"登录豆瓣\"}]",
+    "uid" : "c49f58466a546cf4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586181760426,
+      "stop" : 1586181770868,
+      "duration" : 10442
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'{\"type\":\"link_text\", \"value\":\"登录豆瓣\", \"text\": \"登录豆瓣\"}'", "'huanhuan350881'", "'15122888806'" ]
+  } ]
+}
