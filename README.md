@@ -14,8 +14,9 @@ API：-> for [unittest + HTTPTestRunner] and [pytest + allure]
 6. Finish the optimization
 7. Creating another project based on above project, using pytest+allure to working on it
 
-Web: -> for [unittest + HTTPTestRunner] and [pytest_bdd + allure]
+Web: -> for [unittest + HTTPTestRunner] and [pytest_bdd + allure] and [pytest + allure]
 1. Using json file as the testcase(testData), and generate report by HTTPTestRunner
 2. Using yaml file to maintain every page's elements
-3. The optimization of project framework is ongoing
-4. Creating another project based on above project, using pytest_bdd+allure to working on it
+3. The optimization of project framework is done
+4. Creating another project based on above project, using pytest_bdd+allure to work on it
+5. Creating another project based on above project， using pytest + allure to work on it.
