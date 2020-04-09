@@ -1,0 +1,171 @@
+{
+  "uid" : "99acba0c26b3d86b",
+  "name" : "test_pwSuc[testData0]",
+  "fullName" : "tests.testLogin.test_pwSuc#test_pwSuc",
+  "historyId" : "938c89ef71398a029323e10553cb8361",
+  "time" : {
+    "start" : 1586405768384,
+    "stop" : 1586405772071,
+    "duration" : 3687
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "conf",
+    "time" : {
+      "start" : 1586405768376,
+      "stop" : 1586405768378,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1586405763246,
+      "stop" : 1586405768376,
+      "duration" : 5130
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "eleLoc",
+    "time" : {
+      "start" : 1586405768378,
+      "stop" : 1586405768383,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d0b9a3e1e8e81c30",
+      "name" : "Request Url",
+      "source" : "d0b9a3e1e8e81c30.attach",
+      "type" : "text/plain",
+      "size" : 22
+    }, {
+      "uid" : "d3163533baaf8b40",
+      "name" : "Input data",
+      "source" : "d3163533baaf8b40.attach",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "57f342b13825547d",
+      "name" : "Expected assertion",
+      "source" : "57f342b13825547d.attach",
+      "type" : "text/plain",
+      "size" : 87
+    }, {
+      "uid" : "a7b1a68b40b5038d",
+      "name" : "stdout",
+      "source" : "a7b1a68b40b5038d.txt",
+      "type" : "text/plain",
+      "size" : 42
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1586405772076,
+      "stop" : 1586405774187,
+      "duration" : 2111
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Login with password successfully"
+  }, {
+    "name" : "feature",
+    "value" : "Login module testing"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.testLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test_pwSuc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KAVVNMT"
+  }, {
+    "name" : "thread",
+    "value" : "26188-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.testLogin.test_pwSuc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "testData",
+    "value" : "[{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'class name', 'value': 'bn-more', 'text': None}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "cf3437b46c274dc0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert None is not None\n +  where None = <bound method Page.findElement of <page.pageLogin.Login object at 0x03BA1CD0>>(('class name', 'bn-more'))\n +    where <bound method Page.findElement of <page.pageLogin.Login object at 0x03BA1CD0>> = <page.pageLogin.Login object at 0x03BA1CD0>.findElement",
+      "time" : {
+        "start" : 1586405365061,
+        "stop" : 1586405388870,
+        "duration" : 23809
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "99acba0c26b3d86b.json",
+  "parameterValues" : [ "[{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'class name', 'value': 'bn-more', 'text': None}]" ]
+}

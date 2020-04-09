@@ -1,0 +1,6 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Login module testing","Login with incorrect sms code","0","0","1","0","0"
+"","Login module testing","Login with incorrect password","0","0","1","0","0"
+"","Login module testing","Logout successfully","0","0","1","0","0"
+"","Login module testing","Login with incorrect phone number","0","0","1","0","0"
+"","Login module testing","Login with password successfully","0","0","1","0","0"

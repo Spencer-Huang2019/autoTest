@@ -1,0 +1,164 @@
+{
+  "uid" : "cf3437b46c274dc0",
+  "name" : "test_pwSuc[testData0]",
+  "fullName" : "tests.testLogin.test_pwSuc#test_pwSuc",
+  "historyId" : "938c89ef71398a029323e10553cb8361",
+  "time" : {
+    "start" : 1586405365061,
+    "stop" : 1586405388870,
+    "duration" : 23809
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert None is not None\n +  where None = <bound method Page.findElement of <page.pageLogin.Login object at 0x03BA1CD0>>(('class name', 'bn-more'))\n +    where <bound method Page.findElement of <page.pageLogin.Login object at 0x03BA1CD0>> = <page.pageLogin.Login object at 0x03BA1CD0>.findElement",
+  "statusTrace" : "browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4cc884246317cc729d9f0f111f7e095b\")>\nconf = {'baseUrl': 'http://www.douban.com', 'caseFiles': {'logout': './caseData/dataLogin/dataLogout.json', 'phInc': './caseD...'eleFiles': {'loginEle': './config/elementLoc/loginEle.yaml'}, 'logFiles': {'loginLog': './logFiles/login_log_{}.txt'}}\neleLoc = ('/', {'iframeLoc': ('xpath', \"//div[@class='login']/iframe\"), 'logoutLoc': ('link text', '退出'), 'myAccLoc': ('class name', 'bn-more'), 'passwordLoc': ('id', 'password'), ...})\ntestData = [{'password': 'huanhuan350881', 'username': '15122888806'}, {'by': 'class name', 'text': None, 'value': 'bn-more'}]\n\n    @allure.feature(\"Login module testing\")\n    @allure.story(\"Login with password successfully\")\n    @allure.severity(\"blocker\")\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\"testData\", caseData)\n    def test_pwSuc(browser, conf, eleLoc, testData):\n        baseUrl = conf[\"baseUrl\"]\n        uri, eleDict = eleLoc\n    \n        loginPage = Login(browser, baseUrl)\n        loginPage.open(uri)\n        allure.attach(baseUrl + uri, \"Request Url\")\n    \n        loginPage.switchIframe(eleDict[\"iframeLoc\"])\n        loginPage.click(eleDict[\"pwWayOfLoc\"])\n    \n        input = testData[0]\n        loginPage.typeUser(eleDict[\"usernameLoc\"], input[\"username\"])\n        loginPage.typePw(eleDict[\"passwordLoc\"], input[\"password\"])\n        allure.attach(\"username:{}, password:{}\".format(input[\"username\"], input[\"password\"]), \"Input data\")\n    \n        loginPage.click(eleDict[\"submitLoc\"])\n    \n        loginPage.switch2Default()\n        expected = testData[1]\n        allure.attach(\"Expected:Should find the element {}\".format(expected), \"Expected assertion\")\n>       assert (loginPage.findElement((expected[\"by\"], expected[\"value\"])) is not None)\nE       AssertionError: assert None is not None\nE        +  where None = <bound method Page.findElement of <page.pageLogin.Login object at 0x03BA1CD0>>(('class name', 'bn-more'))\nE        +    where <bound method Page.findElement of <page.pageLogin.Login object at 0x03BA1CD0>> = <page.pageLogin.Login object at 0x03BA1CD0>.findElement\n\ntests\\testLogin\\test_pwSuc.py:39: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1586405359892,
+      "stop" : 1586405365054,
+      "duration" : 5162
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "conf",
+    "time" : {
+      "start" : 1586405365054,
+      "stop" : 1586405365056,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "eleLoc",
+    "time" : {
+      "start" : 1586405365056,
+      "stop" : 1586405365061,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert None is not None\n +  where None = <bound method Page.findElement of <page.pageLogin.Login object at 0x03BA1CD0>>(('class name', 'bn-more'))\n +    where <bound method Page.findElement of <page.pageLogin.Login object at 0x03BA1CD0>> = <page.pageLogin.Login object at 0x03BA1CD0>.findElement",
+    "statusTrace" : "browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4cc884246317cc729d9f0f111f7e095b\")>\nconf = {'baseUrl': 'http://www.douban.com', 'caseFiles': {'logout': './caseData/dataLogin/dataLogout.json', 'phInc': './caseD...'eleFiles': {'loginEle': './config/elementLoc/loginEle.yaml'}, 'logFiles': {'loginLog': './logFiles/login_log_{}.txt'}}\neleLoc = ('/', {'iframeLoc': ('xpath', \"//div[@class='login']/iframe\"), 'logoutLoc': ('link text', '退出'), 'myAccLoc': ('class name', 'bn-more'), 'passwordLoc': ('id', 'password'), ...})\ntestData = [{'password': 'huanhuan350881', 'username': '15122888806'}, {'by': 'class name', 'text': None, 'value': 'bn-more'}]\n\n    @allure.feature(\"Login module testing\")\n    @allure.story(\"Login with password successfully\")\n    @allure.severity(\"blocker\")\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\"testData\", caseData)\n    def test_pwSuc(browser, conf, eleLoc, testData):\n        baseUrl = conf[\"baseUrl\"]\n        uri, eleDict = eleLoc\n    \n        loginPage = Login(browser, baseUrl)\n        loginPage.open(uri)\n        allure.attach(baseUrl + uri, \"Request Url\")\n    \n        loginPage.switchIframe(eleDict[\"iframeLoc\"])\n        loginPage.click(eleDict[\"pwWayOfLoc\"])\n    \n        input = testData[0]\n        loginPage.typeUser(eleDict[\"usernameLoc\"], input[\"username\"])\n        loginPage.typePw(eleDict[\"passwordLoc\"], input[\"password\"])\n        allure.attach(\"username:{}, password:{}\".format(input[\"username\"], input[\"password\"]), \"Input data\")\n    \n        loginPage.click(eleDict[\"submitLoc\"])\n    \n        loginPage.switch2Default()\n        expected = testData[1]\n        allure.attach(\"Expected:Should find the element {}\".format(expected), \"Expected assertion\")\n>       assert (loginPage.findElement((expected[\"by\"], expected[\"value\"])) is not None)\nE       AssertionError: assert None is not None\nE        +  where None = <bound method Page.findElement of <page.pageLogin.Login object at 0x03BA1CD0>>(('class name', 'bn-more'))\nE        +    where <bound method Page.findElement of <page.pageLogin.Login object at 0x03BA1CD0>> = <page.pageLogin.Login object at 0x03BA1CD0>.findElement\n\ntests\\testLogin\\test_pwSuc.py:39: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "764633eccf335d9b",
+      "name" : "Request Url",
+      "source" : "764633eccf335d9b.attach",
+      "type" : "text/plain",
+      "size" : 22
+    }, {
+      "uid" : "1121f6b953bb41c",
+      "name" : "Input data",
+      "source" : "1121f6b953bb41c.attach",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "e26fa3e87f9f5eb7",
+      "name" : "Expected assertion",
+      "source" : "e26fa3e87f9f5eb7.attach",
+      "type" : "text/plain",
+      "size" : 87
+    }, {
+      "uid" : "1051e18f646738d",
+      "name" : "stdout",
+      "source" : "1051e18f646738d.txt",
+      "type" : "text/plain",
+      "size" : 42
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1586405388917,
+      "stop" : 1586405391004,
+      "duration" : 2087
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Login with password successfully"
+  }, {
+    "name" : "feature",
+    "value" : "Login module testing"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.testLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test_pwSuc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KAVVNMT"
+  }, {
+    "name" : "thread",
+    "value" : "19616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.testLogin.test_pwSuc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "testData",
+    "value" : "[{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'class name', 'value': 'bn-more', 'text': None}]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "cf3437b46c274dc0.json",
+  "parameterValues" : [ "[{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'class name', 'value': 'bn-more', 'text': None}]" ]
+}

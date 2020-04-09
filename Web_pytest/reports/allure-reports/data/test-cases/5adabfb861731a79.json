@@ -1,0 +1,160 @@
+{
+  "uid" : "5adabfb861731a79",
+  "name" : "test_pwSuc[testData0]",
+  "fullName" : "tests.testLogin.test_smsInc#test_pwSuc",
+  "historyId" : "1ec9cda3803e0f8c26d96fa2ecc07b87",
+  "time" : {
+    "start" : 1586405396159,
+    "stop" : 1586405397916,
+    "duration" : 1757
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "conf",
+    "time" : {
+      "start" : 1586405396151,
+      "stop" : 1586405396153,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "eleLoc",
+    "time" : {
+      "start" : 1586405396153,
+      "stop" : 1586405396158,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1586405391007,
+      "stop" : 1586405396151,
+      "duration" : 5144
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3ccd4891f4b2e080",
+      "name" : "Request Url",
+      "source" : "3ccd4891f4b2e080.attach",
+      "type" : "text/plain",
+      "size" : 22
+    }, {
+      "uid" : "bc5fce9e54e1111a",
+      "name" : "Input data",
+      "source" : "bc5fce9e54e1111a.attach",
+      "type" : "text/plain",
+      "size" : 32
+    }, {
+      "uid" : "98b849feda25ddab",
+      "name" : "Expected assertion",
+      "source" : "98b849feda25ddab.attach",
+      "type" : "text/plain",
+      "size" : 120
+    }, {
+      "uid" : "6d69872054c88e82",
+      "name" : "stdout",
+      "source" : "6d69872054c88e82.txt",
+      "type" : "text/plain",
+      "size" : 42
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1586405397918,
+      "stop" : 1586405400024,
+      "duration" : 2106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Login module testing"
+  }, {
+    "name" : "story",
+    "value" : "Login with incorrect sms code"
+  }, {
+    "name" : "tag",
+    "value" : "inc"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.testLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test_smsInc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KAVVNMT"
+  }, {
+    "name" : "thread",
+    "value" : "19616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.testLogin.test_smsInc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "testData",
+    "value" : "[{'phone': '15122888806', 'smsCode': '123456'}, {'by': 'class name', 'value': 'fatal-msg', 'text': '验证码输入错误或已过期'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "inc" ]
+  },
+  "source" : "5adabfb861731a79.json",
+  "parameterValues" : [ "[{'phone': '15122888806', 'smsCode': '123456'}, {'by': 'class name', 'value': 'fatal-msg', 'text': '验证码输入错误或已过期'}]" ]
+}

@@ -1,0 +1,11 @@
+baseUrl: http://www.douban.com
+logFiles:
+  loginLog: ./logFiles/login_log_{}.txt
+caseFiles:
+  pwSuc: ./caseData/dataLogin/dataPwSuc.json
+  phInc: ./caseData/dataLogin/dataPhInc.json
+  smsInc: ./caseData/dataLogin/dataSmsInc.json
+  pwInc: ./caseData/dataLogin/dataPwInc.json
+  logout: ./caseData/dataLogin/dataLogout.json
+eleFiles:
+  loginEle: ./config/elementLoc/loginEle.yaml

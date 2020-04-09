@@ -1,0 +1,160 @@
+{
+  "uid" : "441ac04f0c6977ab",
+  "name" : "test_pwSuc[testData0]",
+  "fullName" : "tests.testLogin.test_phoneInc#test_pwSuc",
+  "historyId" : "83d208e9e38a0767c9d91dd993d42bc4",
+  "time" : {
+    "start" : 1586405344217,
+    "stop" : 1586405345970,
+    "duration" : 1753
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "eleLoc",
+    "time" : {
+      "start" : 1586405344212,
+      "stop" : 1586405344216,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "conf",
+    "time" : {
+      "start" : 1586405344210,
+      "stop" : 1586405344212,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1586405339105,
+      "stop" : 1586405344210,
+      "duration" : 5105
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4ae00a06d9b5839c",
+      "name" : "Request Url",
+      "source" : "4ae00a06d9b5839c.attach",
+      "type" : "text/plain",
+      "size" : 22
+    }, {
+      "uid" : "b0f9f5c225c31b2a",
+      "name" : "Input data",
+      "source" : "b0f9f5c225c31b2a.attach",
+      "type" : "text/plain",
+      "size" : 16
+    }, {
+      "uid" : "fec2a02fc7a455c1",
+      "name" : "Expected assertion",
+      "source" : "fec2a02fc7a455c1.attach",
+      "type" : "text/plain",
+      "size" : 111
+    }, {
+      "uid" : "54ba510ba09ac168",
+      "name" : "stdout",
+      "source" : "54ba510ba09ac168.txt",
+      "type" : "text/plain",
+      "size" : 42
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1586405345973,
+      "stop" : 1586405348078,
+      "duration" : 2105
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Login module testing"
+  }, {
+    "name" : "story",
+    "value" : "Login with incorrect phone number"
+  }, {
+    "name" : "tag",
+    "value" : "inc"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.testLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test_phoneInc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KAVVNMT"
+  }, {
+    "name" : "thread",
+    "value" : "19616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.testLogin.test_phoneInc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "testData",
+    "value" : "[{'phone': '1512288880'}, {'by': 'class name', 'value': 'fatal-msg', 'text': '请正确填写手机号'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "inc" ]
+  },
+  "source" : "441ac04f0c6977ab.json",
+  "parameterValues" : [ "[{'phone': '1512288880'}, {'by': 'class name', 'value': 'fatal-msg', 'text': '请正确填写手机号'}]" ]
+}

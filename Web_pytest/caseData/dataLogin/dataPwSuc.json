@@ -1,0 +1,16 @@
+{
+  "desc": "login success",
+  "data": [
+    {
+      "input": {
+        "username": "15122888806",
+        "password": "huanhuan350881"
+      },
+      "expected": {
+        "by": "class name",
+        "value": "bn-more",
+        "text": null
+      }
+    }
+  ]
+}

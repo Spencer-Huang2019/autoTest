@@ -1,0 +1,94 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.testLogin",
+    "children" : [ {
+      "name" : "test_logoutSuc",
+      "children" : [ {
+        "name" : "test_pwSuc[testData0]",
+        "uid" : "f0cec2dce7e12be4",
+        "parentUid" : "5ee72bf8475cc78f5baabd322bc67054",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586405736920,
+          "stop" : 1586405742944,
+          "duration" : 6024
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'class name', 'value': 'account-tab-account', 'text': None}]" ]
+      } ],
+      "uid" : "5ee72bf8475cc78f5baabd322bc67054"
+    }, {
+      "name" : "test_phoneInc",
+      "children" : [ {
+        "name" : "test_pwSuc[testData0]",
+        "uid" : "f4ef4c25b8b43b1a",
+        "parentUid" : "71afab114e32b289aae71e21fa9b7844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586405750233,
+          "stop" : 1586405751726,
+          "duration" : 1493
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'phone': '1512288880'}, {'by': 'class name', 'value': 'fatal-msg', 'text': '请正确填写手机号'}]" ]
+      } ],
+      "uid" : "71afab114e32b289aae71e21fa9b7844"
+    }, {
+      "name" : "test_pwInc",
+      "children" : [ {
+        "name" : "test_pwSuc[testData0]",
+        "uid" : "5a5e8efca8b269fd",
+        "parentUid" : "7bc17f5c350c912749b6d1e951986196",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586405759376,
+          "stop" : 1586405761130,
+          "duration" : 1754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'username': '15122888806', 'password': '123456'}, {'by': 'class name', 'value': 'fatal-msg', 'text': '用户名或密码错误'}]" ]
+      } ],
+      "uid" : "7bc17f5c350c912749b6d1e951986196"
+    }, {
+      "name" : "test_pwSuc",
+      "children" : [ {
+        "name" : "test_pwSuc[testData0]",
+        "uid" : "99acba0c26b3d86b",
+        "parentUid" : "5b031139ab64ad85da524ecd9d430045",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586405768384,
+          "stop" : 1586405772071,
+          "duration" : 3687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'class name', 'value': 'bn-more', 'text': None}]" ]
+      } ],
+      "uid" : "5b031139ab64ad85da524ecd9d430045"
+    }, {
+      "name" : "test_smsInc",
+      "children" : [ {
+        "name" : "test_pwSuc[testData0]",
+        "uid" : "4541ad1d00124db0",
+        "parentUid" : "d55b1032a46e2098ac0c9803c2d0591d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586405779355,
+          "stop" : 1586405781165,
+          "duration" : 1810
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'phone': '15122888806', 'smsCode': '123456'}, {'by': 'class name', 'value': 'fatal-msg', 'text': '验证码输入错误或已过期'}]" ]
+      } ],
+      "uid" : "d55b1032a46e2098ac0c9803c2d0591d"
+    } ],
+    "uid" : "tests.testLogin"
+  } ]
+}
