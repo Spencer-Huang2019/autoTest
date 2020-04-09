@@ -1,0 +1,140 @@
+2020-04-05 16:36:20,209 INFO Enter username: 15122888806
+2020-04-05 16:36:20,304 INFO Enter password: 123456
+2020-04-05 16:36:20,385 INFO Click to login
+2020-04-05 16:36:29,652 INFO Enter username: 15122888806
+2020-04-05 16:36:29,776 INFO Enter password: huanhuan350881
+2020-04-05 16:36:29,885 INFO User successfully login!
+2020-04-05 16:37:05,065 ERROR ele NOT found!
+2020-04-05 16:44:02,046 INFO Enter username: 15122888806
+2020-04-05 16:44:02,129 INFO Enter password: 123456
+2020-04-05 16:44:02,213 INFO Click to login
+2020-04-05 16:44:12,388 INFO Enter username: 15122888806
+2020-04-05 16:44:12,524 INFO Enter password: huanhuan350881
+2020-04-05 16:44:12,620 INFO User successfully login!
+2020-04-05 16:44:22,667 ERROR ele NOT found!
+2020-04-05 16:54:05,205 INFO Enter username: 15122888806
+2020-04-05 16:54:05,341 INFO Enter password: huanhuan350881
+2020-04-05 16:54:05,438 INFO User successfully login!
+2020-04-05 16:54:19,387 INFO Enter phone: 1512288880
+2020-04-05 16:54:20,028 INFO Click send SMS
+2020-04-05 16:54:31,837 INFO Enter phone: 15122888806
+2020-04-05 16:54:31,941 INFO Enter smsCode: 123456
+2020-04-05 16:54:32,062 INFO Click to login
+2020-04-05 16:54:45,547 INFO Enter username: 15122888806
+2020-04-05 16:54:45,635 INFO Enter password: 123456
+2020-04-05 16:54:45,734 INFO Click to login
+2020-04-05 16:54:57,856 INFO Enter username: 15122888806
+2020-04-05 16:54:57,987 INFO Enter password: huanhuan350881
+2020-04-05 16:54:58,102 INFO User successfully login!
+2020-04-05 17:42:46,120 INFO case Logout successfully START!
+2020-04-05 17:42:46,131 INFO case Logout successfully START!
+2020-04-05 17:42:46,828 INFO Enter username: 15122888806
+2020-04-05 17:42:46,940 INFO Enter password: huanhuan350881
+2020-04-05 17:42:47,028 INFO User successfully login!
+2020-04-05 17:43:21,765 ERROR Element: µÇÂ¼¶¹°ê NOT Found!!
+2020-04-05 17:44:07,538 INFO case Logout successfully START!
+2020-04-05 17:44:07,539 INFO case Logout successfully START!
+2020-04-05 17:44:07,829 INFO Enter username: 15122888806
+2020-04-05 17:44:07,970 INFO Enter password: huanhuan350881
+2020-04-05 17:44:08,070 INFO User successfully login!
+2020-04-05 17:44:18,141 ERROR Element: µÇÂ¼¶¹°ê NOT Found!!
+2020-04-05 17:46:34,578 INFO case Logout successfully START!
+2020-04-05 17:46:34,579 INFO case Logout successfully START!
+2020-04-05 17:46:34,591 INFO Element: //div[@class='login']/iframe Found!
+2020-04-05 17:46:34,625 INFO Element: account-tab-account Found!
+2020-04-05 17:46:34,720 INFO Element: username Found!
+2020-04-05 17:46:34,848 INFO Enter username: 15122888806
+2020-04-05 17:46:34,864 INFO Element: password Found!
+2020-04-05 17:46:34,964 INFO Enter password: huanhuan350881
+2020-04-05 17:46:34,979 INFO Element: µÇÂ¼¶¹°ê Found!
+2020-04-05 17:46:35,043 INFO User successfully login!
+2020-04-05 17:46:45,066 ERROR Element: µÇÂ¼¶¹°ê NOT Found!!!
+2020-04-05 17:57:19,083 INFO case: Logout successfully START!
+2020-04-05 17:57:19,097 INFO Element: //div[@class='login']/iframe Found!
+2020-04-05 17:57:19,136 INFO Element: account-tab-account Found!
+2020-04-05 17:57:19,238 INFO Element: username Found!
+2020-04-05 17:57:19,372 INFO Enter username: 15122888806
+2020-04-05 17:57:19,385 INFO Element: password Found!
+2020-04-05 17:57:19,531 INFO Enter password: huanhuan350881
+2020-04-05 17:57:19,549 INFO Element: µÇÂ¼¶¹°ê Found!
+2020-04-05 17:57:19,632 INFO User clicked login!
+2020-04-05 17:57:26,967 INFO Element: bn-more Found!
+2020-04-05 17:57:27,034 INFO Show item of myAccount
+2020-04-05 17:57:27,055 INFO Element: ÍË³ö Found!
+2020-04-05 17:57:27,438 INFO Logout DouBan
+2020-04-05 17:57:37,552 ERROR Element: µÇÂ¼¶¹°ê NOT Found!!!
+2020-04-05 18:02:28,828 INFO case: Logout successfully START!
+2020-04-05 18:02:28,844 INFO Element: //div[@class='login']/iframe Found!
+2020-04-05 18:02:28,888 INFO Element: account-tab-account Found!
+2020-04-05 18:02:29,006 INFO Element: username Found!
+2020-04-05 18:02:29,162 INFO Enter username: 15122888806
+2020-04-05 18:02:29,179 INFO Element: password Found!
+2020-04-05 18:02:29,305 INFO Enter password: huanhuan350881
+2020-04-05 18:02:29,414 INFO Element: µÇÂ¼¶¹°ê Found!
+2020-04-05 18:02:29,500 INFO User clicked login!
+2020-04-05 18:02:30,916 INFO Element: bn-more Found!
+2020-04-05 18:02:30,981 INFO Show item of myAccount
+2020-04-05 18:02:31,003 INFO Element: ÍË³ö Found!
+2020-04-05 18:02:31,261 INFO Logout DouBan
+2020-04-05 18:02:31,354 INFO Element: //div[@class='login']/iframe Found!
+2020-04-05 18:02:32,527 INFO Element: µÇÂ¼¶¹°ê Found!
+2020-04-05 18:02:32,528 INFO case: Logout successfully FINISHED!
+2020-04-05 18:13:24,349 INFO case: login success START!
+2020-04-05 18:13:24,932 INFO Element: //div[@class='login']/iframe Found!
+2020-04-05 18:13:24,968 INFO Element: account-tab-account Found!
+2020-04-05 18:13:25,097 INFO Element: username Found!
+2020-04-05 18:13:25,215 INFO Enter username: 15122888806
+2020-04-05 18:13:25,229 INFO Element: password Found!
+2020-04-05 18:13:25,346 INFO Enter password: huanhuan350881
+2020-04-05 18:13:25,370 INFO Element: µÇÂ¼¶¹°ê Found!
+2020-04-05 18:13:25,452 INFO User clicked login!
+2020-04-05 18:13:26,811 INFO Element: top-nav-doumail-link Found!
+2020-04-05 18:13:26,811 INFO case: login success FINISHED!
+2020-04-05 18:13:38,991 INFO case: Incorrect phone No. START!
+2020-04-05 18:13:39,011 INFO Element: //div[@class='login']/iframe Found!
+2020-04-05 18:13:39,062 INFO Element: phone Found!
+2020-04-05 18:13:39,190 INFO Enter phone: 1512288880
+2020-04-05 18:13:39,214 INFO Element: »ñÈ¡ÑéÖ¤Âë Found!
+2020-04-05 18:13:39,419 INFO Click send SMS
+2020-04-05 18:13:39,437 INFO Element: fatal-msg Found!
+2020-04-05 18:13:39,444 INFO Element: fatal-msg Found!
+2020-04-05 18:13:39,467 INFO case: Incorrect phone No. FINISHED!
+2020-04-05 18:13:51,975 INFO case: Incorrect sms code START!
+2020-04-05 18:13:51,991 INFO Element: //div[@class='login']/iframe Found!
+2020-04-05 18:13:52,056 INFO Element: phone Found!
+2020-04-05 18:13:52,146 INFO Enter phone: 15122888806
+2020-04-05 18:13:52,161 INFO Element: code Found!
+2020-04-05 18:13:52,218 INFO Enter smsCode: 123456
+2020-04-05 18:13:52,240 INFO Element: µÇÂ¼¶¹°ê Found!
+2020-04-05 18:13:52,382 INFO Click to login
+2020-04-05 18:13:52,421 INFO Element: fatal-msg Found!
+2020-04-05 18:13:52,429 INFO Element: fatal-msg Found!
+2020-04-05 18:13:52,450 INFO case: Incorrect sms code FINISHED!
+2020-04-05 18:14:08,236 INFO case: Incorrect password START!
+2020-04-05 18:14:08,256 INFO Element: //div[@class='login']/iframe Found!
+2020-04-05 18:14:08,295 INFO Element: account-tab-account Found!
+2020-04-05 18:14:08,412 INFO Element: username Found!
+2020-04-05 18:14:08,537 INFO Enter username: 15122888806
+2020-04-05 18:14:08,551 INFO Element: password Found!
+2020-04-05 18:14:08,634 INFO Enter password: 123456
+2020-04-05 18:14:08,658 INFO Element: µÇÂ¼¶¹°ê Found!
+2020-04-05 18:14:08,750 INFO Click to login
+2020-04-05 18:14:08,877 INFO Element: fatal-msg Found!
+2020-04-05 18:14:08,886 INFO Element: fatal-msg Found!
+2020-04-05 18:14:08,904 INFO case: Incorrect password FINISHED!
+2020-04-05 18:14:21,924 INFO case: Logout successfully START!
+2020-04-05 18:14:21,945 INFO Element: //div[@class='login']/iframe Found!
+2020-04-05 18:14:21,994 INFO Element: account-tab-account Found!
+2020-04-05 18:14:22,227 INFO Element: username Found!
+2020-04-05 18:14:22,357 INFO Enter username: 15122888806
+2020-04-05 18:14:22,371 INFO Element: password Found!
+2020-04-05 18:14:22,489 INFO Enter password: huanhuan350881
+2020-04-05 18:14:22,520 INFO Element: µÇÂ¼¶¹°ê Found!
+2020-04-05 18:14:22,681 INFO User clicked login!
+2020-04-05 18:14:24,426 INFO Element: bn-more Found!
+2020-04-05 18:14:24,652 INFO Show item of myAccount
+2020-04-05 18:14:25,400 INFO Element: ÍË³ö Found!
+2020-04-05 18:14:26,037 INFO Logout DouBan
+2020-04-05 18:14:26,186 INFO Element: //div[@class='login']/iframe Found!
+2020-04-05 18:14:27,435 INFO Element: µÇÂ¼¶¹°ê Found!
+2020-04-05 18:14:27,436 INFO case: Logout successfully FINISHED!

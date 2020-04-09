@@ -1,0 +1,16 @@
+{
+  "desc": "Incorrect password",
+  "data": [
+    {
+      "input": {
+        "username": "15122888806",
+        "password": "123456"
+      },
+      "expected": {
+        "by": "class name",
+        "value": "fatal-msg",
+        "text": "用户名或密码错误"
+      }
+    }
+  ]
+}

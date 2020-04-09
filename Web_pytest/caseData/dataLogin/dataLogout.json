@@ -1,0 +1,16 @@
+{
+  "desc": "Logout successfully",
+  "data": [
+    {
+      "input": {
+        "username": "15122888806",
+        "password": "huanhuan350881"
+      },
+      "expected": {
+        "by": "class name",
+      "value": "account-tab-account",
+        "text": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+2020-04-08 19:32:52,405 INFO [({'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'id', 'value': 'top-nav-doumail-link', 'text': None})]
+2020-04-08 19:43:10,871 INFO [{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'id', 'value': 'top-nav-doumail-link', 'text': None}]
+2020-04-08 21:20:41,137 INFO request.param: ({'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'id', 'value': 'top-nav-doumail-link', 'text': None})
+2020-04-08 21:34:46,207 INFO request.param: [{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'id', 'value': 'top-nav-doumail-link', 'text': None}]
+2020-04-08 21:36:14,427 INFO request.param: [{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'id', 'value': 'top-nav-doumail-link', 'text': None}]
+2020-04-08 21:37:21,606 INFO request.param: [{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'id', 'value': 'top-nav-doumail-link', 'text': None}]
+2020-04-08 21:37:43,577 INFO request.param: [{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'id', 'value': 'top-nav-doumail-link', 'text': None}]
+2020-04-08 21:37:43,579 INFO testData:[{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'id', 'value': 'top-nav-doumail-link', 'text': None}]

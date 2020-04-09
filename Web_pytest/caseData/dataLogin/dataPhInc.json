@@ -1,0 +1,15 @@
+{
+  "desc": "Incorrect phone No.",
+  "data": [
+    {
+      "input": {
+        "phone": "1512288880"
+      },
+      "expected": {
+        "by": "class name",
+        "value": "fatal-msg",
+        "text": "请正确填写手机号"
+      }
+    }
+  ]
+}

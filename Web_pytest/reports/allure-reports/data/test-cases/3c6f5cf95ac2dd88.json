@@ -1,0 +1,160 @@
+{
+  "uid" : "3c6f5cf95ac2dd88",
+  "name" : "test_pwSuc[testData0]",
+  "fullName" : "tests.testLogin.test_logoutSuc#test_pwSuc",
+  "historyId" : "7063e6204609da2dae8d6861ed6703f2",
+  "time" : {
+    "start" : 1586405333344,
+    "stop" : 1586405336988,
+    "duration" : 3644
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "conf",
+    "time" : {
+      "start" : 1586405333336,
+      "stop" : 1586405333338,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "eleLoc",
+    "time" : {
+      "start" : 1586405333338,
+      "stop" : 1586405333342,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1586405328147,
+      "stop" : 1586405333336,
+      "duration" : 5189
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "88c7c48455c5417b",
+      "name" : "Request Url",
+      "source" : "88c7c48455c5417b.attach",
+      "type" : "text/plain",
+      "size" : 22
+    }, {
+      "uid" : "29c33d25280fecf5",
+      "name" : "Input data",
+      "source" : "29c33d25280fecf5.attach",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "535ef47de0808c8c",
+      "name" : "Expected assertion",
+      "source" : "535ef47de0808c8c.attach",
+      "type" : "text/plain",
+      "size" : 99
+    }, {
+      "uid" : "511b5c6e56c0ac16",
+      "name" : "stdout",
+      "source" : "511b5c6e56c0ac16.txt",
+      "type" : "text/plain",
+      "size" : 84
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1586405336991,
+      "stop" : 1586405339102,
+      "duration" : 2111
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Logout successfully"
+  }, {
+    "name" : "feature",
+    "value" : "Login module testing"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.testLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test_logoutSuc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KAVVNMT"
+  }, {
+    "name" : "thread",
+    "value" : "19616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.testLogin.test_logoutSuc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "testData",
+    "value" : "[{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'class name', 'value': 'account-tab-account', 'text': None}]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "3c6f5cf95ac2dd88.json",
+  "parameterValues" : [ "[{'username': '15122888806', 'password': 'huanhuan350881'}, {'by': 'class name', 'value': 'account-tab-account', 'text': None}]" ]
+}

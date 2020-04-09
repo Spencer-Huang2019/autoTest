@@ -1,0 +1,51 @@
+[ {
+  "uid" : "f4ef4c25b8b43b1a",
+  "name" : "test_pwSuc[testData0]",
+  "time" : {
+    "start" : 1586405750233,
+    "stop" : 1586405751726,
+    "duration" : 1493
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0cec2dce7e12be4",
+  "name" : "test_pwSuc[testData0]",
+  "time" : {
+    "start" : 1586405736920,
+    "stop" : 1586405742944,
+    "duration" : 6024
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "99acba0c26b3d86b",
+  "name" : "test_pwSuc[testData0]",
+  "time" : {
+    "start" : 1586405768384,
+    "stop" : 1586405772071,
+    "duration" : 3687
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4541ad1d00124db0",
+  "name" : "test_pwSuc[testData0]",
+  "time" : {
+    "start" : 1586405779355,
+    "stop" : 1586405781165,
+    "duration" : 1810
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a5e8efca8b269fd",
+  "name" : "test_pwSuc[testData0]",
+  "time" : {
+    "start" : 1586405759376,
+    "stop" : 1586405761130,
+    "duration" : 1754
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
